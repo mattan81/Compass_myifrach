@@ -57,8 +57,6 @@ function analysis_struct = compass_analysis_init(input_struct)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-addpath('./compass-lib')
-addpath('./ext-lib/afSTFT')
 
 %%% ARGUMENT CHECK AND SETTING DEFAULT VALUES
 if ~isfield(input_struct, 'fs') || isempty(input_struct.fs)

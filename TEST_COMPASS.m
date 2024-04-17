@@ -1,5 +1,11 @@
 close all, clear all, dbstop if error %#ok
 
+% Adding dependecies libraries
+addpath('./compass-lib')
+addpath('./ext-lib/afSTFT')
+addpath('./Spherical-Harmonic-Transform/')
+addpath('./Vector-Base-Amplitude-Panning/')
+addpath('./Higher-Order-Ambisonics/')
 %% EXAMPLE1: Synthetic recording - 4 sources - band - anechoic/dry
 
 % analysis/synthesis order 1-3
