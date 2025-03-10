@@ -2,6 +2,8 @@
 
 This repository contains a reference implementation of the Coding and Multi-Parameterisation of Ambisonic Sound Scenes (COMPASS) method, as presented in publication [1].
 
+Signals for paper and results could be found here: http://research.spa.aalto.fi/publications/papers/icassp18-compass/
+
 ## Dependencies
 
 This Matlab code is reliant on the following libraries:
